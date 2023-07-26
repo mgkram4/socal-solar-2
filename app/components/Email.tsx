@@ -32,10 +32,10 @@ const Email = () => {
     <div className="flex flex-col py-8 mx-auto max-w-screen-xl lg:py-8">
       <div className="bg-gray-50 dark:bg-gray-800 border border-gray-200 shadow-lg dark:border-gray-700 rounded-lg p-8 md:p-12 mb-8">
         <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl">
-          Let's Connect!
+          Let&apos;s Connect!
         </h1>
         {isMessageSent && (
-          <div className="mb-4 bg-green-600 text-white rounded-xl  font-3xl">
+          <div className="mb-4 bg-green-600 text-white rounded-xl font-3xl">
             Message sent!
           </div>
         )}
